@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pytorch-splines"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+packages = [{include = "pytorch_splines"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+jupyterlab = "^3.5.2"
+numpy = "^1.24.1"
+torch = "^1.13.1"
+matplotlib = "^3.6.3"
+scipy = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
